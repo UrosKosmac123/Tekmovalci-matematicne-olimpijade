@@ -1,1 +1,1 @@
-# Tekmovalci-matemati-ne-olimpijade
+# Tekmovalci-matematicne-olimpijade
