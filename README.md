@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Tekmovalci-matemati-ne-olimpijade
 =======
 # Tekmovalci-matematicne-olimpijade
@@ -18,4 +18,3 @@ Nekatere hipoteze:
 - Katere so najtežje naloge v 20ih letih
 
 Verjetno bom še dodal kakšno hipotezo
->>>>>>> 2fa8a4d1ee47ce41816cd3d886fd907e16b85f06
