@@ -25,6 +25,7 @@ def zapisi_podatke_tekmovalcev():
     for podatek in podatki:
         seznam_podatkov.append(podatek.get_text(separator=' '))
 
+
 zapisi_podatke_tekmovalcev()
 print(seznam_podatkov)
 
