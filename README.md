@@ -2,7 +2,7 @@
 # Tekmovalci-matemati-ne-olimpijade
 =======
 # Tekmovalci-matematicne-olimpijade
-Analiziral bom tekmovalce matematične olimpijade zadnjih 20 let s strani:
+Analiziral bom tekmovalce matematične olimpijade zadnjih 30 let s strani:
 https://www.imo-official.org/default.aspx
 
 Za vsakega tekmovalca bom zajel:
@@ -15,6 +15,6 @@ Za vsakega tekmovalca bom zajel:
 Nekatere hipoteze:
 - Kakšno je razmerje med številom prebivalcev in uspešnost njenih tekmovalcev(manjša država, manj nagrad?)
 - Ali je bolj uspešen moški ali ženski spol
-- Katere so najtežje naloge v 20ih letih
+- Katere so najtežje naloge v 30ih letih
 
 Verjetno bom še dodal kakšno hipotezo
