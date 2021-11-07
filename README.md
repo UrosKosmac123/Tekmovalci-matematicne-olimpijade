@@ -6,11 +6,11 @@ Analiziral bom tekmovalce matematične olimpijade zadnjih 30 let s strani:
 https://www.imo-official.org/default.aspx
 
 Za vsakega tekmovalca bom zajel:
+- ime in priimek tekmovalca
 - koliko točk je dosegel v pozamezni nalogi
 - dosežek, ki ga je dosegel
 - iz katere države je
-- kolikokrat je tekmoval in kolikokrat je država tekmovala
-- spol
+- relativno in absolutno mesto tekmovalca
 
 Nekatere hipoteze:
 - Kakšno je razmerje med številom prebivalcev in uspešnost njenih tekmovalcev(manjša država, manj nagrad?)
