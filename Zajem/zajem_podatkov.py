@@ -9,12 +9,12 @@ soup_drzave = BeautifulSoup(seznam_drzav, 'lxml')
 
 seznam_koncnic = []
 
-def poisci_koncnice():
-    drzave = soup_drzave.find_all('td',{'align':'center'})
-    for drzava in drzave:
-        seznam_koncnic.append(drzava.text)
+#def poisci_koncnice():
+#    drzave = soup_drzave.find_all('td',{'align':'center'})
+#    for drzava in drzave:
+#        seznam_koncnic.append(drzava.text)
 
-poisci_koncnice()
+#poisci_koncnice()
 #print(seznam_koncnic)
 #print(len(seznam_koncnic))
 
@@ -87,16 +87,3 @@ def poisci_tekmovalce():
     return ctn
 
 tekmovalci = pandas.DataFrame(poisci_tekmovalce())
-    #print(seznam_let_od_1990_2020)
-
-
-    #with open(f'Drzave/{koncnica}.csv', 'w', newline='') as file:
-    #    zapisi = csv.writer(file, delimiter= ',')
-    #    zapisi.writerows(seznam_let_od_1990_2020)
-
-        
-    #with open('Francija.csv', 'w', newline='') as file:
-    #    podatki = ["leto","ime","priimek","N1","N2","N3","N4","N5","N6","N7","skupaj","absolutno mesto","relativno mesto","nagrada",]
-    #    writer = csv.DictWriter(file, fieldnames=podatki)
-    #    for row in seznam_podatkov:
-    #        writer.writerow(row)
