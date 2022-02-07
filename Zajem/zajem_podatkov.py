@@ -9,21 +9,13 @@ soup_drzave = BeautifulSoup(seznam_drzav, 'lxml')
 
 seznam_koncnic = []
 
-#def poisci_koncnice():
-#    drzave = soup_drzave.find_all('td',{'align':'center'})
-#    for drzava in drzave:
-#        seznam_koncnic.append(drzava.text)
-
-#poisci_koncnice()
-#print(seznam_koncnic)
-#print(len(seznam_koncnic))
-
 def poisci_drzave():
     text = requests.get('https://www.imo-official.org/countries.aspx').text
     soup = bs4.BeautifulSoup(text, 'lxml')
     return [c.text for c in soup.select('#main tbody tr td:first-child')]
 
 drzave = poisci_drzave()
+print(drzave)
 
 def poisci_tekmovalce():
     ctn = []
